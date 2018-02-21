@@ -42,6 +42,7 @@ class MainActivity : AppCompatActivity() {
     var player1 = ArrayList<Int>()
     var player2 = ArrayList<Int>()
 
+
     var activePlayer = 1
     var btnUsed = 0
     private fun playGame(cellID: Int, btnSelected: Button){
@@ -192,6 +193,9 @@ class MainActivity : AppCompatActivity() {
             }
             playGame(cellID,btnSelected)
         }
+    }
+    fun somethingFunny(){
+        val happy: Int
     }
 
 
