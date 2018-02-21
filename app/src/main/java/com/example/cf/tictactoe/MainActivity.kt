@@ -41,7 +41,7 @@ class MainActivity : AppCompatActivity() {
     }
     var player1 = ArrayList<Int>()
     var player2 = ArrayList<Int>()
-
+    //naa diri ang soemthing
     var activePlayer = 1
     var btnUsed = 0
     private fun playGame(cellID: Int, btnSelected: Button){
